@@ -131,7 +131,7 @@ Where T is total coverage and M is methylated coverage <br />
 ### ChIPseq_scripts
 These scripts process raw FASTQ files from Illumina sequenced ChIP-seq to produce aligned, deduplicated BAM files which remove multimapping reads. <br />
 
-#### submit_RRBS_process.sh <br />
+#### submit_bowtie2_ChIP_process.sh <br />
 Usage: *qsub submit_bowtie2_ChIP_process.sh -d fileDIR -i sampleID -o outDIR -g indexDIR [--PE --noDeDup --noClean --indexROOT]* <br />
 
 *-i* sampleID, input file ID, note without '_1' or '_2' or fastq gz extension <br />
